@@ -18,6 +18,27 @@ Run these in your terminal for:
     dotnet run
     ```
 
+> [!NOTE]
+> 
+> If you don't get syntax highlighting
+>
+> 1. Ensure you have the C# Dev Kit extension installed
+> 2. Ensure you have a solution file (*.sln) in your project. Usually this is generated, but not always
+
+- Commands for adding a solution manually
+
+    1. Add solution file
+
+        ```sh
+        dotnet new sln
+        ```
+        
+    2. Add project to solution
+
+        ```sh
+        dotnet sln add <name-of-csproj-file>
+        ```
+
 ## Notes
 
 Ignore the following files:
