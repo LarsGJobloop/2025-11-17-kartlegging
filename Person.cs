@@ -14,4 +14,11 @@ class Person
 
     Name = name;
   }
+
+  // Method, similar to a JS function. Descripes some actions
+  // that instance of this class can make
+  public void SayHello()
+  {
+    Console.WriteLine($"Hello! My name is {Name}");
+  }
 }

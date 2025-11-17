@@ -2,4 +2,6 @@
 var per = new Person("Per");
 var espen = new Person("Espen");
 
-Console.WriteLine(lars.Name);
+lars.SayHello();
+per.SayHello();
+espen.SayHello();
