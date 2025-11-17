@@ -1,27 +1,5 @@
-﻿// This is a comment
+﻿var lars = new Person("Lars Gunnar");
+var per = new Person("Per");
+var espen = new Person("Espen");
 
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Testing testing");
-Console.WriteLine("Hello hello!");
-
-var a = 10;
-var b = 32;
-var c = a + b;
-Console.WriteLine(c);
-
-if (c > 40)
-{
-  Console.WriteLine("C is larger than 40");
-} else
-{
-  Console.WriteLine("C is less than 40");
-}
-
-var count = 0;
-
-while (count < 10)
-{
-  Console.WriteLine("Count is");
-  Console.WriteLine(count);
-  count++;
-}
+Console.WriteLine(lars.Name);
