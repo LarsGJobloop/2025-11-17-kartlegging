@@ -24,7 +24,7 @@ class ProfileRegistry
   // This was from after we took lunch
   public Profile Register(RegistrationInfo info)
   {
-    var newProfile = new Profile { Alias = info.Alias, Email = info.Email, Bio = info.Bio }
+    var newProfile = new Profile { Alias = info.Alias, Email = info.Email, Bio = info.Bio };
     profiles.Add(newProfile);
     return newProfile;
   }
