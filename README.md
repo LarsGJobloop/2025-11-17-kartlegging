@@ -1,6 +1,12 @@
 # Backend Introduction
 
+## Introduction
+
 ![Sketches from intro](/docs/backend-introduction.excalidraw.png)
+
+## Backend Design Tools
+
+![Useful diagrams](/docs/backend-diagrams.excalidraw.png)
 
 ## Command shortlist
 
